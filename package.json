@@ -1,0 +1,23 @@
+{
+  "name": "amqp-topic-pub-consume",
+  "version": "0.0.1",
+  "description": "Simple lib to listen/send to a Message queue",
+  "keywords": "amqp publish message queue consume",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+      "name": "Samuel Gabel",
+      "email": "smlgbl@gmail.com"
+  },
+    "repository" :
+    { "type" : "git"
+        , "url" : "http://github.com/smlgbl/amqp-topic-pub-consume.git"
+    },
+  "license": "MIT",
+  "dependencies": {
+    "when": "^3.0.1",
+    "amqp": "^0.2.0"
+  }
+}
